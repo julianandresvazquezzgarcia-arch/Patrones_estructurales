@@ -7,6 +7,11 @@ public abstract class PersonajeDecorador implements IPersonaje {
     }
 
     @Override
+    public void atacar(IPersonaje oponente) {
+        personaje.atacar(oponente);
+    }
+
+    @Override
     public void recibirDano(int dano) {
         personaje.recibirDano(dano);
     }
