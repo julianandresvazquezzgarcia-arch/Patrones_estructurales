@@ -1,31 +1,30 @@
-import java.util.Random;
-
 public class PersonajeBase implements IPersonaje {
 
     private String nombre;
     private int puntosDeVida;
-    private final int MAX_DANO = 30;
-    private final int MIN_DANO = 10;
+    private EstrategiaAtaque estrategia;
 
-    public PersonajeBase(String nombre) {
+    public PersonajeBase(String nombre, EstrategiaAtaque estrategia) {
+
         this.nombre = nombre;
+        this.estrategia = estrategia;
         this.puntosDeVida = 100;
     }
 
     @Override
     public void atacar(IPersonaje oponente) {
-        Random rand = new Random();
-        int dano = rand.nextInt((MAX_DANO - MIN_DANO) + 1) + MIN_DANO;
+
+        int dano = estrategia.atacar();
 
         oponente.recibirDano(dano);
 
-        System.out.println(nombre + " ataca a "
-                + oponente.getNombre()
-                + " causando " + dano + " puntos de dano.");
+        System.out.println(nombre +
+                " causa " + dano + " puntos de daño.");
     }
 
     @Override
     public void recibirDano(int dano) {
+
         puntosDeVida -= dano;
 
         if (puntosDeVida < 0) {
