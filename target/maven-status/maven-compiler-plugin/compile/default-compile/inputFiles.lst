@@ -1,0 +1,12 @@
+/workspaces/Patrones_estructurales/src/main/java/ArmaduraDecorador.java
+/workspaces/Patrones_estructurales/src/main/java/AtaqueFuerte.java
+/workspaces/Patrones_estructurales/src/main/java/AtaqueMagico.java
+/workspaces/Patrones_estructurales/src/main/java/AtaqueRapido.java
+/workspaces/Patrones_estructurales/src/main/java/EscudoDecorador.java
+/workspaces/Patrones_estructurales/src/main/java/EspadaDecorador.java
+/workspaces/Patrones_estructurales/src/main/java/EstrategiaAtaque.java
+/workspaces/Patrones_estructurales/src/main/java/IPersonaje.java
+/workspaces/Patrones_estructurales/src/main/java/JuegoLucha.java
+/workspaces/Patrones_estructurales/src/main/java/Main.java
+/workspaces/Patrones_estructurales/src/main/java/PersonajeBase.java
+/workspaces/Patrones_estructurales/src/main/java/PersonajeDecorador.java

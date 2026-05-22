@@ -1,0 +1,11 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+patrones-estructurales,default,PersonajeBase,27,25,3,1,7,9,5,3,3,3
+patrones-estructurales,default,EspadaDecorador,14,21,4,0,4,8,3,2,1,2
+patrones-estructurales,default,AtaqueMagico,13,0,0,0,3,0,2,0,2,0
+patrones-estructurales,default,ArmaduraDecorador,30,0,2,0,11,0,4,0,3,0
+patrones-estructurales,default,AtaqueFuerte,10,3,0,0,2,1,1,1,1,1
+patrones-estructurales,default,JuegoLucha,92,0,8,0,24,0,7,0,3,0
+patrones-estructurales,default,AtaqueRapido,10,3,0,0,2,1,1,1,1,1
+patrones-estructurales,default,EscudoDecorador,31,0,2,0,10,0,4,0,3,0
+patrones-estructurales,default,PersonajeDecorador,22,6,0,0,7,3,5,1,5,1
+patrones-estructurales,default,Main,34,0,0,0,6,0,2,0,2,0

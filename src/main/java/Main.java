@@ -5,7 +5,7 @@ public class Main {
         IPersonaje jugador1 =
                 new EspadaDecorador(
                         new PersonajeBase(
-                                "Ryu",
+                                "Julian",
                                 new AtaqueFuerte()
                         )
                 );
@@ -13,7 +13,7 @@ public class Main {
         IPersonaje jugador2 =
                 new ArmaduraDecorador(
                         new PersonajeBase(
-                                "Ken",
+                                "Mariana",
                                 new AtaqueRapido()
                         )
                 );

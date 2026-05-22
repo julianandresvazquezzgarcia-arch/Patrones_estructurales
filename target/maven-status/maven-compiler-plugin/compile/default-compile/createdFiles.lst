@@ -1,0 +1,12 @@
+AtaqueRapido.class
+Main.class
+JuegoLucha.class
+EspadaDecorador.class
+IPersonaje.class
+AtaqueFuerte.class
+PersonajeDecorador.class
+PersonajeBase.class
+EstrategiaAtaque.class
+ArmaduraDecorador.class
+EscudoDecorador.class
+AtaqueMagico.class
